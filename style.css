@@ -45,6 +45,7 @@ ul {
     display: flex;
     padding: 100px 0;
     gap: 100px;
+    justify-content: space-between;
 }
 
 #contenido-uno {
@@ -163,4 +164,47 @@ ul {
 
 .frase .cita .titulo {
     font-style: italic;
+}
+
+.aviso {
+    border-radius: 10px;
+    margin: 0 400px;
+    background-color: #3B82F6;
+}
+
+.aviso .texto .subtexto,
+.aviso .texto {
+    color: #F7FAFF;
+}
+
+.contenido {
+    display: flex;
+    padding: 60px 130px;
+    justify-content: space-between;
+}
+
+.aviso .texto {
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+
+.aviso .boton-sign-up {
+    border: 2px solid #f3f3f3;
+    padding: 10px 0;
+}
+
+.aviso .boton {
+    display: flex;
+    align-items: flex-end;
+}
+
+.pie-pagina {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f3f3f3;
 }
