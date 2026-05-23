@@ -96,6 +96,7 @@ ul {
     display: flex;
     flex: 1;
     flex-direction: column;
+    gap: 100px;
 }
 
 .informacion {
@@ -135,4 +136,31 @@ ul {
     border: 5px solid #3B82F6;
     border-radius: 15px;
     flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.frase {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 500px;
+    gap: 5px;
+}
+
+.frase .texto {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.frase .cita {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.frase .cita .titulo {
+    font-style: italic;
 }
